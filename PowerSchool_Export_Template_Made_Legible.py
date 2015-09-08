@@ -3,11 +3,9 @@
 #### > The second column will contain the PowerSchool Field as described in the custom template.
 
 ## Directions:
-#### > Paste the name of your file in the "" marks on the line below. Be sure to include the file extension, the file should be saved in .csv format.
+#### > Replace "your_original_file.csv" (line 10) with the file you would like to clean (saved in .csv format.) Be sure to include the file extension.
 #### > The file you are using must be saved in the same folder as this script.
 #### > Your new file will be named "output_template.csv".
-
-your_original_file="" 
 
 with open("your_original_file.csv", "r") as input_template:
 	template = input_template.read().split(',')
